@@ -1,0 +1,3 @@
+{
+  "extends":"@ignite-leonel-ui/eslint-config"
+}
