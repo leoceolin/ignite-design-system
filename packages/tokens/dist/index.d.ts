@@ -33,7 +33,7 @@ declare const space: {
     80: string;
 };
 
-declare const radius: {
+declare const radii: {
     px: string;
     xs: string;
     sm: string;
@@ -54,13 +54,13 @@ declare const fontSizes: {
     md: string;
     lg: string;
     xl: string;
-    "2xl": string;
-    "4xl": string;
-    "5xl": string;
-    "6xl": string;
-    "7xl": string;
-    "8xl": string;
-    "9xl": string;
+    '2xl': string;
+    '4xl': string;
+    '5xl': string;
+    '6xl': string;
+    '7xl': string;
+    '8xl': string;
+    '9xl': string;
 };
 
 declare const fontWeights: {
@@ -76,4 +76,4 @@ declare const lineHeights: {
     tall: string;
 };
 
-export { colors, fontSizes, fontWeights, fonts, lineHeights, radius, space };
+export { colors, fontSizes, fontWeights, fonts, lineHeights, radii, space };
