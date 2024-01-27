@@ -12,6 +12,9 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@ignite-leonel-ui/react": "*",
+    "@ignite-leonel-ui/tokens": "*",
+    "@ignite-leonel-ui/eslint-config": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
