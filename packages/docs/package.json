@@ -8,13 +8,16 @@
     "build": "storybook build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "dev": "storybook dev -p 6006"
+    "dev": "storybook dev -p 6006",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "license": "MIT",
   "dependencies": {
     "@ignite-leonel-ui/eslint-config": "*",
     "@ignite-leonel-ui/react": "*",
     "@ignite-leonel-ui/tokens": "*",
+    "@storybook/addon-a11y": "^7.6.10",
+    "@storybook/storybook-deployer": "^2.8.16",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
