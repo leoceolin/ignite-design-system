@@ -1,5 +1,11 @@
 # @ignite-leonel-ui/react
 
+## 3.0.1
+
+### Patch Changes
+
+- fixes in design system
+
 ## 3.0.0
 
 ### Major Changes
